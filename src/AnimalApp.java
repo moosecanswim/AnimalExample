@@ -17,6 +17,18 @@ public class AnimalApp {
 		print(b.eat());
 		print(b.sleep());
 		print(b.fly());
+		
+		Dog d = new Dog();
+		print(d.eat());
+		print(d.sleep());
+		print(d.fetch());
+		print(d.sit());
+		
+		Pikachu p = new Pikachu();
+		print(p.eat());
+		print(p.sleep());
+		print(p.thunderbolt());
+		print(p.pokeBall());
 
 	}
 	private static void print(String s){
